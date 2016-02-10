@@ -7,5 +7,4 @@
 	echo "*";
 }
 }
-<<<<<<< HEAD
 ?></center>
