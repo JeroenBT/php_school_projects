@@ -1,0 +1,26 @@
+<<<<<<< HEAD
+application: My_PHP_Projects
+=======
+application: myapp
+>>>>>>> 6ae2a72751d95f6e3826f512e13e0a0e5e6b026a
+version: alpha-001
+runtime: php55
+api_version: 1
+
+handlers:
+# Serve images as static resources.
+- url: /(.+\.(gif|png|jpg))$
+  static_files: \1
+  upload: .+\.(gif|png|jpg)$
+  application_readable: true
+
+# Serve php scripts.
+<<<<<<< HEAD
+- url: /(.+\.php)$
+  script: \1
+
+- url: /.*
+=======
+- url: .*
+>>>>>>> 6ae2a72751d95f6e3826f512e13e0a0e5e6b026a
+  script: main.php
