@@ -9,7 +9,7 @@
 		echo "Zwemclub: " . $index . ", Leden aantal: " . $waarde;
 		echo "<br>";
 			for ($i = 0; $i < $value; $i++) {
-				echo "X ";
+				echo '<img src="img/zwem.png" alt="icon" style="width:50px;height:50px;" />';
 			}
 			echo "<br>";
 		}
