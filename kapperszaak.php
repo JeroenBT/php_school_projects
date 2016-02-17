@@ -5,6 +5,13 @@
 	$kappersagenda['10:00'] = "Paul van den Broek";
 	$kappersagenda['10:15'] = "Karel de Meeuw";
 	$kappersagenda['10:30'] = "";
+	echo "Kapperszaak Sanders agenda:";
+	?><ul><?php
+	foreach($kappersagenda as $tijd => $afspraak) {
+		?><li><?php print(" ".$tijd." - ".$afspraak)?></li><?php;
+	}
+	print("");
+	?></ul><?php
 	echo "De volgende momenten zijn nog beschikbaar:";
 	?><ul><?php
 	foreach($kappersagenda as $tijd => $afspraak) {
