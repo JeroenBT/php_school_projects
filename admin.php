@@ -50,7 +50,7 @@
 		}
 	}
 ?>
-<form>
+<!--form>
 <input type="submit" name="logoutButton" value="Uitloggen & Terug naar inlogscherm">
-</form>
+</form-->
 <p><a href="loginandadmin.php">Terug naar inlogscherm</a></p>
