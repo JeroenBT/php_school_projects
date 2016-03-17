@@ -1,7 +1,6 @@
 <?php
 	session_start();
 	$linkNaarAdminPagina = false;
-	$message2 = "";
 	$users = array(
 	"test" => "1234",
 	"dinges" => "4321",
@@ -35,16 +34,6 @@
 			$linkNaarAdminPagina = false;
 			setcookie("gebruikerIngelogd", false);
 			$_SESSION["admin"] = false;
-	}
-	
-	if(isset($_POST['infoButton'])){
-		if($message2 != ""){
-			$message2 = "Admin: test | Wachtwoord: 1234<br>Gebruiker: dinges | Wachtwoord: 4321";
-			$showInfo = false;
-		}else{
-			$message2 = "";
-			$showInfo = true;
-		}
 	}
 ?>
 
