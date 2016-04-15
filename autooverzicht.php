@@ -110,7 +110,6 @@
 	}
 
     ?>
-</center>
 </div>
 </body>
 </html>
